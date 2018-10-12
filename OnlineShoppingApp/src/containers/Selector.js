@@ -1,7 +1,7 @@
 import { createSelector } from 'reselect';
 
-const ordersSelector = state => state.orders;
+const usersSelector = state => state.users;
 
 export default {
-    ordersSelector,
+   usersSelector,
 }
